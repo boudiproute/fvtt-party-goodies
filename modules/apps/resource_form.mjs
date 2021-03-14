@@ -29,9 +29,9 @@ export default class ResourceForm extends FormApplication {
    */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      id: "fvtt-party-resources-form",
-      classes: ["fvtt-party-resources"],
-      template: "modules/fvtt-party-resources/templates/resource_form.html",
+      id: "fvtt-party-goodies-form",
+      classes: ["fvtt-party-goodies"],
+      template: "modules/fvtt-party-goodies/templates/resource_form.html",
       width: 400,
       minimizable: false,
       closeOnSubmit: true

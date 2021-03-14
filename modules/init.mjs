@@ -6,7 +6,7 @@ import ResourcesDashboard from "./apps/resources_dashboard.mjs"
 
 Hooks.once('init', () => {
   window.pr = {
-    version: game.modules.get('fvtt-party-resources').data.version,
+    version: game.modules.get('fvtt-party-goodies').data.version,
     dashboard: new ResourcesDashboard(),
     api: new ResourcesApi(),
     notifications: new ResourceNotifications()

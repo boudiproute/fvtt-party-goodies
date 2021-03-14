@@ -1,7 +1,7 @@
 export default class ResourceNotifications {
 
   container() {
-    return $('#fvtt-party-resources-notifications')
+    return $('#fvtt-party-goodies-notifications')
   }
 
   html(message) {
@@ -11,8 +11,8 @@ export default class ResourceNotifications {
   constructor() {
     this.notifications = []
 
-    if($('#fvtt-party-resources-notifications').length === 0) {
-      $('body').append(`<div id="fvtt-party-resources-notifications"></div>`);
+    if($('#fvtt-party-goodies-notifications').length === 0) {
+      $('body').append(`<div id="fvtt-party-goodies-notifications"></div>`);
     }
   }
 

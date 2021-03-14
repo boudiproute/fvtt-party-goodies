@@ -6,9 +6,9 @@ import CursorTooltip from "./../cursor_tooltip.mjs";
 export default class ResourcesDashboard extends Application {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      id: "fvtt-party-resources-dashboard",
-      classes: ["fvtt-party-resources"],
-      template: "modules/fvtt-party-resources/templates/resources_dashboard.html",
+      id: "fvtt-party-goodies-dashboard",
+      classes: ["fvtt-party-goodies"],
+      template: "modules/fvtt-party-goodies/templates/resources_dashboard.html",
       minimizable: true,
       resizable: true,
       title: game.i18n.localize("FvttPartyResources.Title")
@@ -103,7 +103,7 @@ export default class ResourcesDashboard extends Application {
   // Deprecated and no longer in use since v1.1
   // Leaving it here as a means to a "reset window size" button or something.
   recalculate_height() {
-    $('#fvtt-party-resources-dashboard').css({
+    $('#fvtt-party-goodies-dashboard').css({
       width: 'auto',
       height: 'auto'
     })

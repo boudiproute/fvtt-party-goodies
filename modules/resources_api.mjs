@@ -10,7 +10,7 @@ export default class ResourcesApi {
   }
 
   get(name) {
-    return game.settings.get('fvtt-party-resources', name)
+    return game.settings.get('fvtt-party-goodies', name)
   }
 
   increment(name, jump) {
@@ -29,7 +29,7 @@ export default class ResourcesApi {
     }
 
     game.settings.register(
-      'fvtt-party-resources',
+      'fvtt-party-goodies',
       name,
       mergeObject(properties, options || {})
     )
@@ -67,6 +67,6 @@ export default class ResourcesApi {
   }
 
   set(name, value, options) {
-    game.settings.set('fvtt-party-resources', name, value)
+    game.settings.set('fvtt-party-goodies', name, value)
   }
 }

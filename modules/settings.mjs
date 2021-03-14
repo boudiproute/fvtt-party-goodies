@@ -3,7 +3,7 @@ export default class ModuleSettings {
     window.pr.api.register('resource_list')
 
     game.settings.register(
-      'fvtt-party-resources',
+      'fvtt-party-goodies',
       'first-time-startup-notification-shown',
       { scope: "client", config: false, type: Boolean, default: false }
     )

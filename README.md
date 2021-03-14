@@ -1,4 +1,4 @@
-# FoundryVTT - Party Resources
+# FoundryVTT - Party Goodies
 
 ![Latest release](https://img.shields.io/github/v/release/davelens/fvtt-party-resources?style=for-the-badge)
 
@@ -27,9 +27,9 @@ scoped on worlds.
 ![Image showing what the players see when opening the resources dashboard](https://davelens.be/screenshots/party-resources-players.jpg?t=1607638881)
 
 ## Installation
-1. Install Party Resources in FoundryVTT using the manifest URL:
+1. Install Party Goodies in FoundryVTT using the manifest URL:
 ```
-https://raw.githubusercontent.com/davelens/fvtt-party-resources/master/module.json
+https://raw.githubusercontent.com/boudiproute/fvtt-party-goodies/master/module.json
 ```
 2. Enable the `Party Resources` module in the active game world.
 
